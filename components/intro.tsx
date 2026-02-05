@@ -51,8 +51,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Olá, sou a Pâmela</span>. Estudante de{" "}
-        <span className="font-bold">TI</span> e<span className="font-bold"> futura desenvolvedora</span>,{" "} gosto de aprender coisas novas e de estudar sobre{" "}
-        <span className="font-bold">tecnologias 👩‍💻💚</span>
+        <span className="font-bold">TI</span> e<span className="font-bold"> futura desenvolvedora</span>.{" "} Sou uma eterna aprendiz do mundo da{" "}
+        <span className="font-bold">tecnologia 👩‍💻💚</span>
       </motion.h1>
 
       <motion.div

@@ -5,6 +5,14 @@ import { LuGraduationCap } from "react-icons/lu";
 import amk from "../public/amk.png"; 
 import ecobyte from "../public/ecobyte.png"; 
 import onepets from "../public/one-pets.png";
+import { FaMicrosoft } from "react-icons/fa";
+
+import { 
+  SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, 
+  SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss, 
+  SiPython, SiFigma, SiLunacy,
+  SiAdobephotoshop, SiCoreldraw 
+} from "react-icons/si";
 
 export const links = [
   {
@@ -119,6 +127,7 @@ export const projectsData = [
   },
 ] as const;
 
+
 export const skillsData = [
   "HTML",
   "CSS",
@@ -130,9 +139,28 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Python",
-  "Java",
   "Office 365",
   "Figma",
+  "Lunacy",
   "Adobe Photoshop",
   "CorelDRAW",
 ] as const;
+
+
+export const skillIcons = {
+  "HTML": SiHtml5,
+  "CSS": SiCss3,
+  "JavaScript": SiJavascript,
+  "TypeScript": SiTypescript,
+  "React": SiReact,
+  "Next.js": SiNextdotjs,
+  "Node.js": SiNodedotjs,
+  "Git": SiGit,
+  "Tailwind": SiTailwindcss,
+  "Python": SiPython,
+  "Office 365": FaMicrosoft,
+  "Figma": SiFigma,
+  "Lunacy": SiLunacy,
+  "Adobe Photoshop": SiAdobephotoshop,
+  "CorelDRAW": SiCoreldraw,
+} as const;
