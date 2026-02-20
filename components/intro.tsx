@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pamela.jpg"
+              src="/pamela.png"
               alt="Pâmela Costa"
               width="192"
               height="192"
