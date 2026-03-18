@@ -2,15 +2,17 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import amk from "../public/amk.png"; 
+import amk from "../public/amk.png";
+import seduc from "../public/seduc.png"; 
 import ecobyte from "../public/ecobyte.png"; 
 import onepets from "../public/one-pets.png";
 import { FaMicrosoft } from "react-icons/fa";
+import Link from "next/link";
 
 import { 
   SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, 
-  SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss, 
-  SiPython, SiFigma, SiLunacy,
+  SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss,
+  SiFigma, SiLunacy, SiLazarus,
   SiAdobephotoshop, SiCoreldraw 
 } from "react-icons/si";
 
@@ -105,11 +107,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Automação de Cálculos de RH - SEDUC-PA",
+    description: "Desenvolvimento de um sistema desktop para automatizar cálculos de RH.",
+    tags: ["Object Pascal", "Lazarus IDE"],
+    imageUrl: seduc,
+    Link: "https://github.com/pamis-costa/ferramentas-gestao-rh",
+  },
+  {
     title: "Site - Amazônia Marketing",
     description:
       "Desenvolvimento de um site para uma empresa Amazônia Marketing focada na região da Amazônia.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: amk,
+    Link: "https://github.com/joseph2reis/amazonia-marketing",
   },
   {
     title: "Site - Projeto Ecobyte",
@@ -117,6 +127,7 @@ export const projectsData = [
       "Site desenvolvido para o projeto Minas Programam, sobre o projeto integrador I do curso Técnico em Informática da EETEPA Vilhena Alves. ",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: ecobyte,
+    Link: "https://projeto-ecobyte.vercel.app",
   },
   {
     title: "Site - One - Pets",
@@ -124,6 +135,7 @@ export const projectsData = [
       "Desenvolvimento de site e-commerce de produtos personalizados para pets, com foco em Front-End.",
     tags: ["HTML", "CSS", "JavaScript", "SQL"],
     imageUrl: onepets,
+    Link: "https://github.com/mariccs/one-pets",
   },
 ] as const;
 
@@ -138,7 +150,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Python",
   "Office 365",
   "Figma",
   "Lunacy",
@@ -157,7 +168,6 @@ export const skillIcons = {
   "Node.js": SiNodedotjs,
   "Git": SiGit,
   "Tailwind": SiTailwindcss,
-  "Python": SiPython,
   "Office 365": FaMicrosoft,
   "Figma": SiFigma,
   "Lunacy": SiLunacy,
