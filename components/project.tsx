@@ -5,15 +5,9 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof projectsData)[number];
-
-export default function Project({
-  title,
-  description,
-  tags,
-  imageUrl,
-  Link,
-}: ProjectProps) {
+export default function Project(props: typeof projectsData[number]) {
+  const { title, description, imageUrl, Link } = props;
+  const tags = props.tags as readonly string[];
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -40,10 +34,10 @@ export default function Project({
                 {description}
               </p>
               <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-                {tags.map((tag, index) => (
+                {tags.map((tag) => (
                   <li
                     className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                    key={index}
+                    key={tag}
                   >
                     {tag}
                   </li>
@@ -78,10 +72,10 @@ export default function Project({
               {description}
             </p>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-              {tags.map((tag, index) => (
+              {tags.map((tag) => (
                 <li
                   className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                  key={index}
+                  key={tag}
                 >
                   {tag}
                 </li>
