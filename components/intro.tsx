@@ -38,7 +38,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.25rem] border-green-800 shadow-xl"
+              className="h-40 w-40 rounded-full object-cover border-[0.2rem] border-green-800 shadow-xl"
             />
           </motion.div>
 
@@ -50,9 +50,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Olá, sou a Pâmela</span>. Estudante de{" "}
-        <span className="font-bold">TI</span> e<span className="font-bold"> futura desenvolvedora</span>.{" "} Sou uma eterna aprendiz do mundo da{" "}
-        <span className="font-bold">tecnologia 👩‍💻💚</span>
+        <span className="font-bold">Olá, sou a Pâmela!</span> Estudante de{" "}
+        <span className="font-bold">TI</span>, movida a café e curiosidade de sobra. Sou uma eterna aprendiz apaixonada por esse universo da{" "}
+        <span className="font-bold">tecnologia 👩‍💻☕💚</span>
       </motion.h1>
 
       <motion.div
