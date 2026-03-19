@@ -44,7 +44,7 @@ export default function RootLayout({
         {/* 🐈 GATINHO GLOBAL AQUI 👇 */}
         <div className="fixed bottom-0 left-0 w-full pointer-events-none z-50 overflow-hidden">
           <img 
-            src="/gatinho.gif" 
+            src="cat.gif" 
             alt="Gatinho andando" 
             className="fixed w-16 h-16 pointer-events-none z-[-1] mix-blend-multiply animate-walk-cat opacity-80"
           />
