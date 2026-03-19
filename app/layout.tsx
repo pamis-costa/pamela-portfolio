@@ -49,6 +49,7 @@ export default function RootLayout({
             className="fixed w-16 h-16 pointer-events-none z-[-1] mix-blend-multiply animate-walk-cat opacity-80"
           />
         </div>
+        <Analytics />
       </body>
     </html>
   );
