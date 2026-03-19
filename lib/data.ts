@@ -13,7 +13,7 @@ import {
   SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, 
   SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss,
   SiFigma, SiLunacy, SiLazarus,
-  SiAdobephotoshop, SiCoreldraw 
+  SiAdobephotoshop, SiCanva
 } from "react-icons/si";
 
 export const links = [
@@ -154,7 +154,7 @@ export const skillsData = [
   "Figma",
   "Lunacy",
   "Adobe Photoshop",
-  "CorelDRAW",
+  "Canva",
 ] as const;
 
 
@@ -172,5 +172,5 @@ export const skillIcons = {
   "Figma": SiFigma,
   "Lunacy": SiLunacy,
   "Adobe Photoshop": SiAdobephotoshop,
-  "CorelDRAW": SiCoreldraw,
+  "Canva": SiCanva,
 } as const;
