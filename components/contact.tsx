@@ -57,12 +57,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Digite seu email"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-green-100 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-gray-800 placeholder-opacity-100 dark:placeholder:text-gray-700"
           name="message"
-          placeholder="Your message"
+          placeholder="Sua mensagem"
           required
           maxLength={5000}
         />

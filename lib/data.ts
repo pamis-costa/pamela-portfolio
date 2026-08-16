@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import amk from "../public/amk.png";
 import seduc from "../public/seduc.png"; 
+import opapelverse from "../public/opapelverse.png";
 import ecobyte from "../public/ecobyte.png"; 
 import onepets from "../public/one-pets.png";
 import { FaMicrosoft } from "react-icons/fa";
@@ -107,6 +108,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "🚧 OpapelVerse 🚧",
+    description: "Em desenvolvimento!!! É um aplicativo mobile focado em experiências imersivas utilizando Óculos de Realidade Virtual (RV) caseiros.",
+    tags: ["React Native", "React"],
+    imageUrl: opapelverse,
+    Link: "https://github.com/pamis-costa/opapelverse",
+  },
+  {
     title: "Automação de Cálculos de RH - SEDUC-PA",
     description: "Desenvolvimento de um sistema desktop para automatizar cálculos de RH.",
     tags: ["Object Pascal", "Lazarus IDE"],
@@ -114,7 +122,7 @@ export const projectsData = [
     Link: "https://github.com/pamis-costa/ferramentas-gestao-rh",
   },
   {
-    title: "Site - Amazônia Marketing",
+    title: "Site: Amazônia Marketing",
     description:
       "Desenvolvimento de um site para uma empresa Amazônia Marketing focada na região da Amazônia.",
     tags: ["React", "Next.js", "Tailwind"],
@@ -122,7 +130,7 @@ export const projectsData = [
     Link: "https://github.com/joseph2reis/amazonia-marketing",
   },
   {
-    title: "Site - Projeto Ecobyte",
+    title: "Site: Projeto Ecobyte",
     description:
       "Site desenvolvido para o projeto Minas Programam, sobre o projeto integrador I do curso Técnico em Informática da EETEPA Vilhena Alves. ",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -130,7 +138,7 @@ export const projectsData = [
     Link: "https://projeto-ecobyte.vercel.app",
   },
   {
-    title: "Site - One - Pets",
+    title: "Site: One - Pets",
     description:
       "Desenvolvimento de site e-commerce de produtos personalizados para pets, com foco em Front-End.",
     tags: ["HTML", "CSS", "JavaScript", "SQL"],

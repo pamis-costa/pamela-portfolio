@@ -1,0 +1,4 @@
+allowBuilds:
+  react-vertical-timeline-component: false
+  sharp: false
+  unrs-resolver: false
