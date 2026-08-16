@@ -11,11 +11,14 @@ import { FaMicrosoft } from "react-icons/fa";
 import Link from "next/link";
 
 import { 
-  SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, 
+  SiHtml5, SiJavascript, SiTypescript, SiReact, 
   SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss,
-  SiFigma, SiLunacy, SiLazarus,
-  SiAdobephotoshop, SiCanva
+  SiFigma, SiLunacy, SiLazarus
 } from "react-icons/si";
+
+// Pegando os ícones que sumiram do SimpleIcons de outras bibliotecas:
+import { FaCss3Alt, FaPaintBrush } from "react-icons/fa"; // Usaremos o PaintBrush para o Canva
+import { DiPhotoshop } from "react-icons/di";
 
 export const links = [
   {
@@ -168,7 +171,7 @@ export const skillsData = [
 
 export const skillIcons = {
   "HTML": SiHtml5,
-  "CSS": SiCss3,
+  "CSS": FaCss3Alt, 
   "JavaScript": SiJavascript,
   "TypeScript": SiTypescript,
   "React": SiReact,
@@ -176,9 +179,9 @@ export const skillIcons = {
   "Node.js": SiNodedotjs,
   "Git": SiGit,
   "Tailwind": SiTailwindcss,
-  "Office 365": FaMicrosoft,
+  "Office 365": FaMicrosoft, 
   "Figma": SiFigma,
   "Lunacy": SiLunacy,
-  "Adobe Photoshop": SiAdobephotoshop,
-  "Canva": SiCanva,
+  "Adobe Photoshop": DiPhotoshop, 
+  "Canva": FaPaintBrush, 
 } as const;
